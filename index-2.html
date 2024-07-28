@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <style>
-.dot {
-  height: 14px;
-  width: 14px;
-  background-color: #EF3724;
-  border-radius: 50%;
-  display: inline-block;
+  .dot {
+    height: 14px;
+    width: 14px;
+    background-color: #EF3724;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .profile-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.main-title {
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 20px;
+}
+.section-header {
+    font-size: 22px;
+    color: #666;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+.details-text {
+    font-size: 17px;
+    color: #555;
+    margin: 12px 0;
+}
+.item-list {
+    margin-left: 20px;
+}
+.item {
+    margin-bottom: 12px;
 }
 </style>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
+
   <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
-  
+
   <title>Virtual Folio - Portfolio HTML5 Template</title>
 
   <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 
   <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/vendor/owl-carousel/owl.carousel.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/vendor/nice-select/css/nice-select.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/vendor/fancybox/css/jquery.fancybox.min.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/css/virtual.css">
-  
+
   <link rel="stylesheet" type="text/css" href="assets/css/topbar.virtual.css">
 </head>
+
 <body class="theme-red">
-  
+
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
   </div>
-  
+
   <!-- Setting button -->
 
   <div class="vg-page page-home" id="home" style="background-image: url(assets/img/bg_image_1.jpg)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
-        <a href="" class="navbar-brand">Portfolio</a>
+        <a href="" class="navbar-brand">ポートフォリオ</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
           <span class="ti-menu"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+              <a href="#home" class="nav-link" data-animate="scrolling">ホーム</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
-            </li>
-			 <li class="nav-item">
-              <a href="#skills" class="nav-link" data-animate="scrolling">Skills</a>
-            </li>
-			 <li class="nav-item">
-              <a href="#qualification" class="nav-link" data-animate="scrolling">Qualification/Experience</a>
-            </li>
-			<li class="nav-item">
-              <a href="#ach" class="nav-link" data-animate="scrolling">Achievements</a>
+              <a href="#about" class="nav-link" data-animate="scrolling">紹介</a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio" class="nav-link" data-animate="scrolling">Projects</a>
+              <a href="#skills" class="nav-link" data-animate="scrolling">スキル</a>
             </li>
-            
             <li class="nav-item">
-              <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
+              <a href="#qualification" class="nav-link" data-animate="scrolling">資格・経験</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ach" class="nav-link" data-animate="scrolling">実績</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling">プロジェクト</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-animate="scrolling">お問い合わせ</a>
             </li>
           </ul>
           <ul class="nav ml-auto">
             <li class="nav-item">
-              <button class="btn btn-fab btn-theme no-shadow">En</button>
+              <button class="btn btn-fab btn-theme no-shadow">JP</button>
             </li>
           </ul>
         </div>
@@ -91,13 +124,13 @@
     </div> <!-- End Navbar -->
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
-      <h5 class="fw-normal">Welcome</h5>
-      <h1 class="fw-light mb-4">I'm <b class="fg-theme">Abhishek</b> Pol</h1>
-      <div class="badge">Software Engineer</div>
+      <h5 class="fw-normal">ようこそ</h5>
+      <h1 class="fw-light mb-4">I'm <b class="fg-theme">アビシェク</b> ポール</h1>
+      <div class="badge">ソフトウェアエンジニア</div>
     </div> <!-- End Caption header -->
     <div class="floating-button"><span class="ti-mouse"></span></div>
   </div>
-  
+
   <div class="vg-page page-about" id="about">
     <div class="container py-5">
       <div class="row">
@@ -107,102 +140,127 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">Abhishek Pol</h1>
-          <h5 class="fg-theme mb-3">Bilingual Software Engineer (Japanese) </h5>
-          <p class="text-muted" style="text-align: justify;text-justify: inter-word;">I am Bilingual Software Engineer. I can speak Japanese. I am passionate about designing and implementing creative projects. I have ability to translate business requirements into technical solutions .I am currently aiming for JLPT N2.Personally, for me, I would like to build something beneficial to society. When I started going to college for programming I said "I want this as my career because I feel like I can create anything in code!" To learn is my end goal, and it is what motivates me to improve myself as a developer.</p>
+          <h1 class="fw-light">アビシェク ポール</h1>
+          <h5 class="fg-theme mb-3">バイリンガルソフトウェアエンジニア (日本語) (英語) </h5>
+          <p class="text-muted" style="text-align: justify;text-justify: inter-word;">バイリンガルのソフトウェアエンジニアとして、日本語に堪能な私は、革新的なプロジェクトの設計と実装に情熱を持っています。ビジネス要件を効果的な技術ソリューションに変換する強い能力を持ち、現在JLPT N1認定の準備を進めています。私の最終的な目標は、社会にポジティブな影響を与える技術を開発することです。大学でプログラミングを学び始めた瞬間から、このキャリアを追求したいと思いました。なぜなら、コードを通じて何でも作り出せる力を与えてくれるからです。継続的な学習は私のプロフェッショナルな成長を促進し、開発者としてのスキルを向上させるモチベーションとなっています。</p>
           <ul class="theme-list">
-		  <li><b><img src="./assets/img/logo/gmail.png" width="20px" height="20px" style="width:10px,height:10px;" /></b>&nbsp;&nbsp; polahishek@gmail.com</li>
-		  <li><b><img src="./assets/img/logo/home.png" width="20px" height="20px" style="width:10px,height:10px;" /></b> Maharashtra, India</li>
-              <li><b><img src="./assets/img/logo/phone.png" width="20px" height="20px" style="width:10px,height:10px;" /></b>&nbsp;&nbsp; +91-7028148719</li>
-				<li><b><img src="./assets/img/logo/linkedin.png"  width="20px" height="20px" style="width:10px,height:10px;" /></b>&nbsp;&nbsp;<a href="  https://www.linkedin.com/in/AbhishekPol" >Abhishek</a></li>
-           
-             <li><b><img src="./assets/img/logo/age.png" width="20px" height="20px" style="width:10px,height:10px;" /></b>&nbsp;&nbsp;21</li>
-			 
-         
-			
-			 
-			
+            <li><b><img src="./assets/img/logo/gmail.png" width="20px" height="20px"
+                  style="width:10px,height:10px;" /></b>&nbsp;&nbsp; polahishek2001@gmail.com</li>
+            <li><b><img src="./assets/img/logo/home.png" width="20px" height="20px"
+                  style="width:10px,height:10px;" /></b> 東京、日本</li>
+            <li><b><img src="./assets/img/logo/phone.png" width="20px" height="20px"
+                  style="width:10px,height:10px;" /></b>&nbsp;&nbsp; +81-08098241447</li>
+            <li><b><img src="./assets/img/logo/linkedin.png" width="20px" height="20px"
+                  style="width:10px,height:10px;" /></b>&nbsp;&nbsp;<a
+                href="  https://www.linkedin.com/in/AbhishekPol">Abhishek</a></li>
           </ul>
-          <a class="btn btn-theme-outline" href="https://drive.google.com/uc?export=download&id=1ouTFqhD8WtYvFXMZMRCHGH0j8nR9WoCi">Download CV</a>
+          <a class="btn btn-theme-outline"
+            href="https://drive.google.com/uc?export=download&id=1ouTFqhD8WtYvFXMZMRCHGH0j8nR9WoCi">Download CV</a>
         </div>
       </div>
     </div>
-    <div class="container py-5" id="skills"  style="margin-top:100px;height:1000px">>
-      <h1 class="text-center fw-normal wow fadeIn">My Skills1</h1>
+    <div class="container py-5" id="skills" style="margin-top:100px;height:1000px">>
+      <h1 class="text-center fw-normal wow fadeIn">私のスキル</h1>
       <div class="row py-3">
         <div class="col-md-6">
           <div class="px-lg-3">
-            <h4 class="wow fadeInUp">Coding skills</h4>
+            <h4 class="wow fadeInUp">コーディングスキル</h4>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">React Js</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
               </div>
             </div>
-	 <div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Next Js</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">86%</div>
+                <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">86%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Type Script</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Javascript</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">HTML + CSS</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">100%</div>
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">100%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Java</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">CPP</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">MYSQL and ORACLE</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">88%</div>
+                <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">88%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">AWS</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">50%</div>
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">70%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Android</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">80%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Python</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">60%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
+            <div class="progress-wrapper wow fadeInUp">
               <span class="caption">Git and Version Control</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">60%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Node JS</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Salesforce</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">80%</div>
               </div>
             </div>
           </div>
@@ -211,231 +269,343 @@
           <div class="px-lg-3">
             <h4 class="wow fadeInUp">Languages</h4>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">English</span>
+              <span class="caption">英語</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">99%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Hindi</span>
+              <span class="caption">ヒンディー語</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
+                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">99%</div>
               </div>
             </div>
             <div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Japanese</span>
+              <span class="caption">日本語</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">80%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
-              <span class="caption">German</span>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">ドイツ語 </span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">15%</div>
+                <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">35%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Marathi</span>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">マラーティー語</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">99%</div>
+                <div class="progress-bar" role="progressbar" style="width: 99%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">99%</div>
               </div>
             </div>
-			<div class="progress-wrapper wow fadeInUp">
-              <span class="caption">Sanskrit</span>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">サンスクリット語</span>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 69%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">69%</div>
+                <div class="progress-bar" role="progressbar" style="width: 69%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">69%</div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-   <div class="container pt-5"  id="qualification" >
+    <div class="container pt-5" id="qualification">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
-          <h2 class="fw-normal">Education</h2>
+          <h2 class="fw-normal">学歴</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2016</div>
+              <div class="title">2016年</div>
               <div class="details">
-                <h5>Diploma in Information and Technology</h5>
-                <small class="fg-theme">Government Polytechnic Kolhapur            2016-2019</small>
-				 <small class="fg-theme">Percentage 93.25 %</small>
-               
+                <h5> 高等教育のディプロマ</h5>
+                <h5>情報技術<img src="https://play-lh.googleusercontent.com/6WY0e-FbQ4mXY1kiUxuxVaPRbQ3uR3GH165v4WmEgC9HQ0Wbl-CQIGMFoWNO3E-xUjCI" alt="GPKP Logo" width="40"
+                    height="40" style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">コルハプル州立工科大学 2016-2019</small>
+                <small class="fg-theme">成績 93.25%
+                </small>
+
               </div>
             </li>
             <li>
               <div class="title">2019</div>
               <div class="details">
-                <h5>B.Tech in Computer science and Engineering</h5>
-                <small class="fg-theme">Walchand College Of Engineering Sangli</small>
-				 <small class="fg-theme">CGPA 9.10</small>
+                <h5>技術学士
+                </h5>
+                <h5> コンピュータサイエンスおよびエンジニアリング<img src="data:image/png;base64,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" alt="Walchand Logo"
+                    width="40" height="40" style="padding-left: 0.7em;"></h5>
+                <small class="fg-theme">ワルチャンド工科大学 サングリ</small>
+                <small class="fg-theme">CGPA 9.10</small>
               </div>
             </li>
-            
+
           </ul>
         </div>
         <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
-          <h2 class="fw-normal">Experience</h2>
+          <h2 class="fw-normal">経験</h2>
           <ul class="timeline mt-4 pr-md-5">
-		  <li>
-              <div class="title">10/2022 - Present</div>
+            <li>
+              <div class="title">2023年6月 - 現在</div>
               <div class="details" style="width:600px">
-                <h5>Momentive Japan.<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Momentive_Performance_Materials_logo.svg/2560px-Momentive_Performance_Materials_logo.svg.png" alt="Momentive Logo" width="80" height="40" style="padding-left: 0.2em;"></h5>
-                <small class="fg-theme">Bilingual Software Engineer</small>
-                <p><span class="dot"></span>&nbsp;&nbsp;<b>First project:-</b>1) I am working as bilingual(Japanese) software Engineer at momentive japan. I am working as Full stack Developer.I am responsible for developing the momentive japan website and make updations as well as maintain the website content as per requirements.I am working in Japanese environment with japanese language to understand requirements from stake holders and managers and implementing them on the website.
-This website I work on:- https://www.momentive.com/ja-jp
-My Tasks
-			<ul>
-  <li>Develop FrontEnd of Website using HTML,CSS,JAVASCRIPT,REACT JS,NEXT JS</li>
-  <li>Develop the BackEnd Code and create Th REST API`s using JAVA,PYTHON,NODE JS</li>
-  <li> Maintain The Database Taking backup</li>
-   <li>Mentor the juniors</li>
-   <li>Maintaning the Intranet<br/><b>Momentive Website</b> <a href="https://music.rakuten.co.jp/">https://www.momentive.com/ja-jp</li>
-</ul>
+                <h5>EY Japan<img src="https://assets.ey.com/content/dam/ey-sites/ey-com/ja_jp/news/ey-japan-news-release-logo-02.jpg" alt="Ey Logo" width="80" height="40"
+                    style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">バイリンガルソフトウェアエンジニア</small>
+                <p> <div class="profile-container">
+                  <div class="main-title">職務経歴書</div>
+          
+                  <div class="section-header">スキルと専門知識</div>
+                  <div class="details-text">
+                      <p class="item"><strong>フルスタック開発:</strong> フロントエンドおよびバックエンド開発に熟練し、シームレスな統合と機能性を確保します。</p>
+                      <p class="item"><strong>Salesforce技術:</strong> API作成やDevOps活動など、さまざまな開発タスクにSalesforceを利用する専門知識があります。</p>
+                      <p class="item"><strong>技術文書:</strong> 日本語での詳細な技術文書の作成に熟練しています。</p>
+                      <p class="item"><strong>バイリンガルの能力:</strong> 日本語と英語に堪能で、効果的なコミュニケーションとコラボレーションを促進します。</p>
+                      <p class="item"><strong>デプロイメントとテスト:</strong> Docker CI/CDパイプラインを使用してアプリケーションをデプロイし、高水準を維持するために包括的なテストを実施します。</p>
+                      <p class="item"><strong>クライアントリレーション:</strong> クライアントミーティングをリードし、クライアントの要件に応じた技術的な見解を提供します。</p>
+                  </div>
+          
+                  <div class="section-header">職務経験</div>
+                  <div class="details-text">
+                      <p><strong>バイリンガルデジタルエンジニア | EYジャパン | [開始日] - 現在</strong></p>
+                      <p class="item"><strong>フロントエンドおよびバックエンド開発:</strong> 日本市場向けのウェブサイトを開発および維持し、堅牢でスケーラブルなソリューションを確保します。</p>
+                      <p class="item"><strong>API作成:</strong> ウェブサイトの機能性とパフォーマンスを向上させるためにAPIを設計および実装します。</p>
+                      <p class="item"><strong>データベース管理:</strong> データの整合性とアクセス可能性を確保するためにデータベース管理を監督します。</p>
+                      <p class="item"><strong>DevOps活動:</strong> 開発とデプロイメントプロセスを合理化するためにDevOpsタスクを実行します。</p>
+                      <p class="item"><strong>単体テスト:</strong> 高品質なコードを確保するために単体テストを実施し、問題を特定して解決します。</p>
+                      <p class="item"><strong>技術文書:</strong> 日本語で技術文書を作成し、明確な理解とコミュニケーションを促進します。</p>
+                      <p class="item"><strong>クライアントミーティング:</strong> クライアントミーティングをリードし、技術的なニーズに対応し、専門的なアドバイスを提供します。</p>
+                      <p class="item"><strong>ブリッジエンジニアリング:</strong> 日本と海外チームのコラボレーションを促進するためにバイリンガルスキルを活かします。</p>
+                  </div>
+          
+                  <div class="section-header">バックエンドAPI開発</div>
+                  <div class="details-text">
+                      <p>バックエンドAPIの開発を主導し、パフォーマンスとスケーラビリティを向上させました。</p>
+                  </div>
+          
+                  <div class="section-header">機能実装</div>
+                  <div class="details-text">
+                      <p>新機能の設計と実装により、ユーザーエンゲージメントと満足度を大幅に向上させました。</p>
+                  </div>
+          
+                  <div class="section-header">フロントエンド統合</div>
+                  <div class="details-text">
+                      <p>フロントエンドコンポーネントを作成・統合し、シームレスで直感的なユーザー体験を実現しました。</p>
+                  </div>
+          
+                  <div class="section-header">デプロイメント最適化</div>
+                  <div class="details-text">
+                      <p>Docker CI/CDパイプラインを使用してSalesforceクラウドにアプリケーションをデプロイし、デプロイメントプロセスを最適化しました。</p>
+                  </div>
+          
+                  <div class="section-header">包括的テスト</div>
+                  <div class="details-text">
+                      <p>コードの徹底的なテスト（フロントエンドと自動化テストを含む）を実施し、高品質基準を維持しました。</p>
+                  </div>
+          
+                  <div class="section-header">技術文書</div>
+                  <div class="details-text">
+                      <p>日本語で包括的な技術文書を作成し、明確なコミュニケーションと知識共有を確保しました。</p>
+                  </div>
+          
+                  <div class="section-header">クライアントエンゲージメント</div>
+                  <div class="details-text">
+                      <p>日本語でのクライアントミーティングを主導し、ニーズに対応し、専門的な技術的見解を提供しました。</p>
+                  </div>
+          
+                  <div class="section-header">ブリッジエンジニア</div>
+                  <div class="details-text">
+                      <p>バイリンガルの能力を活かして、日本と海外チームの効果的なコラボレーションを促進しました。</p>
+                  </div>
+              </div> <p><b>CI LABO Website</b></p> <a href="https://www.ci-labo.com/">https://www.ci-labo.com/></a>
 
-</a>
-		      </p>
+                </p>
 
- <p><span class="dot"></span>&nbsp;&nbsp;<b>Second project:-</b> I developed the Reimbursement management Website for Internal use of the Momemtive employees. Employees can avail the reimburse for there traveling expenses or any other. Employee has to login first with their credentials then he can apply by adding details and receipt and uploading his hanko, After that Manager will approve its request and then HR department . After all process done employee will get reimbursed.
-</p>
 
-		      
+
+
+              </div>
+            </li>
+            <li>
+              <div class="title">10/2022 - 5/2023</div>
+              <div class="details" style="width:600px">
+                <h5>Momentive Japan.<img src="https://logos-download.com/wp-content/uploads/2019/01/Momentive_Logo.png" alt="Momentive Logo" width="80"
+                    height="40" style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">バイリンガルソフトウェアエンジニア
+                </small>
+                <p>  <div class="profile-container">
+                  <div class="main-title">職務経歴書</div>
+          
+                  <div class="section-header">ウェブサイトの開発と維持管理</div>
+                  <div class="details-text">
+                      <p class="item"><strong>Momentive Japan ウェブサイト:</strong> （<a href="https://www.momentive.com/ja-jp">https://www.momentive.com/ja-jp</a>）の開発および維持管理を主導。</p>
+                      <p class="item"><strong>バックエンド開発:</strong> Java、Python、Node.jsを使用してバックエンドコードおよびREST APIの開発。</p>
+                      <p class="item"><strong>フロントエンド開発:</strong> HTML、CSS、JavaScript、React.js、Next.jsを使用してフロントエンドコンポーネントの作成と最適化。</p>
+                      <p class="item"><strong>データベース管理:</strong> データベースの堅牢な管理を確保し、バックアップおよびリカバリプロセスを実施。</p>
+                      <p class="item"><strong>ジュニアデベロッパー指導:</strong> ジュニアデベロッパーの指導および技術的ガイダンスを提供。</p>
+                      <p class="item"><strong>システム維持管理:</strong> インターネットシステムの維持管理および更新を実施。</p>
+                  </div>
+          
+                  <div class="section-header">内部経費精算管理システム</div>
+                  <div class="details-text">
+                      <p class="item"><strong>経費精算ウェブサイト:</strong> Momentive社員の旅行および経費精算を効率化する包括的な経費精算ウェブサイトを設計・実装。</p>
+                      <p class="item"><strong>機能実装:</strong> 社員ログイン機能、詳細な領収書および印鑑アップロードを含むリクエスト提出機能、マネージャーおよび人事部門を含む多段階承認ワークフローを開発。</p>
+                      <p class="item"><strong>プロセス改善:</strong> 精算プロセス全体の効率性とユーザー満足度を向上させるためにシステムを強化。</p>
+                  </div>
+              </div> </p>
+
+
               </div>
             </li>
             <li>
               <div class="title">03/21 - 09/2022</div>
               <div class="details" style="width:600px">
-                <h5>Rakuten INC.<img src="https://www.logotypes101.com/logos/195/BBAF31F7B6B961D9FA9BCDA5DB96E55E/rakuten1.png" alt="Rakuten Logo" width="30" height="30" style="padding-left: 0.2em;"></h5>
-                <small class="fg-theme">Bilingual Software Engineer</small>
-                <p><span class="dot"></span>&nbsp;&nbsp;<b>First project:-</b>Working with the Rakuten Music team to develop the website of the Rakuten Music.Worked with the Rakuten music team to built the Equalizer for the Rakuten  music
-system. Enhance the performance of the songs loading by using the  AVFoundation player and
-			migrate the system from AVPlayer.<br/><b>Rakuten Music</b> <a href="https://music.rakuten.co.jp/">https://music.rakuten.co.jp/</a>
-		      </p>
+                <h5>楽天グループ株式会社<img src="./assets/img/logo/rakuten.png" alt="Rakuten Logo" width="30" height="30"
+                    style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">バイリンガルソフトウェアエンジニア</small>
+                <p><div class="profile-container">
+                  <div class="main-title">職務経歴書</div>
+          
+                  <div class="section-header">楽天ミュージック</div>
+                  <div class="details-text">
+                      <p class="item"><strong>楽天ミュージックウェブサイト:</strong> （<a href="https://music.rakuten.co.jp/">https://music.rakuten.co.jp/</a>）の開発と強化を担当。</p>
+                      <p class="item"><strong>カスタムイコライザー:</strong> 音楽システム用のカスタムイコライザー機能を開発。</p>
+                      <p class="item"><strong>パフォーマンス改善:</strong> AVPlayerからAVFoundationプレーヤーへの移行により、曲の読み込みパフォーマンスを改善。</p>
+                  </div>
+          
+                  <div class="section-header">占星術師ポータル</div>
+                  <div class="details-text">
+                      <p class="item"><strong>占星術師ポータル:</strong> React.js、AWS、Node.jsを使用して楽天占い（<a href="https://uranai.rakuten.co.jp/">https://uranai.rakuten.co.jp/</a>）用の占星術師ポータルを設計・実装。</p>
+                      <p class="item"><strong>機能実装:</strong> ユーザーログイン、占星術師の予約、ビデオ通話/チャット機能を実装。</p>
+                      <p class="item"><strong>WebRTC統合:</strong> Google MeetやWhatsAppのようなビデオ通話機能を提供するためにWebRTC技術を統合。</p>
+                      <p class="item"><strong>登録と認証:</strong> 占星術師の登録、認証、ユーザーフィードバック機能を実装。</p>
+                      <p class="item"><strong>プロジェクトの意義:</strong> このプロジェクトは楽天のインド市場への初の進出を示す。</p>
+                  </div>
+          
+                  <div class="section-header">R-Hackathonポータル</div>
+                  <div class="details-text">
+                      <p class="item"><strong>R-Hackathonポータル:</strong> 楽天部門レベルのハッカソンコンペティション用プラットフォーム「R-Hackathonポータル」の開発に貢献。</p>
+                      <p class="item"><strong>機能開発:</strong> イベント作成、参加者登録、アイデア提出、評価機能を開発。</p>
+                      <p class="item"><strong>評価機能:</strong> イベント主催者が参加者の評価に基づいてアイデアをレビューし、選定する機能を実装。</p>
+                  </div>
+          
+                  <div class="section-header">楽天NFT</div>
+                  <div class="details-text">
+                      <p class="item"><strong>楽天NFT B2Cウェブサイト:</strong> IPホルダーがデジタルモーメントを含むNFTパックを作成および販売できるようにするウェブサイトを開発。</p>
+                      <p class="item"><strong>マルチテナンシーアプローチ:</strong> さまざまなIPホルダー向けにカスタマイズされたレイアウトとブランドを提供するマルチテナンシーアプローチを実装。</p>
+                      <p class="item"><strong>再販管理:</strong> NFTトークンの顧客間（C2C）再販を管理し、C2CおよびB2Cプラットフォームの両方に新機能を追加。</p>
+                      <p class="item"><strong>バイリンガルアソシエイトプロダクトマネージャー:</strong> 日本とインドのチーム間のコミュニケーションを促進し、IPホルダーのオンボーディングを担当。</p>
+                      <p class="item"><strong>主要企業との連携:</strong> ニッカンスポーツ、円谷プロ、バンダイナムコ、テレビ朝日、大喜音響、Jリーグなどの主要日本企業と連携し、楽天NFTエコシステムを強化。</p>
+                  </div>
+              </div>
+                <p>
+                  <b>Rakuten NFT CTC Website : </b><br>
+                  <a href="https://nft.rakuten.co.jp/">https://nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Rakuten NFT BTC ULTRAMAN Website : </b><br>
 
- <p><span class="dot"></span>&nbsp;&nbsp;<b>Second project:-</b>  Developed the Astrologers portal with the use of React js, AWS, node js
-technologies. Users can log in on the web portal and book the astrologer and make a video call,
-group video call, or chat with them. Astrologers first have to register and submit their details after
-verification they can join. users can see the astrologer and can give feedback. This is the first
-project Rakuten will launch in India. for video calling used WebRTC technology that is most
-popular for video calling Google meet, WhatsApp video call, Teams all uses WebRTC technology.
-		      <br/><b>Rakuten URANAI</b> <a href="https://uranai.rakuten.co.jp/">https://uranai.rakuten.co.jp/</a>
-		      </p>
- <p><span class="dot"></span>&nbsp;&nbsp;<b>Third project:-</b>  Worked with the Team to build the R-hackathon portal which is hackathon portal
-where all Rakuten Department level competitions will held.  Here Event Organizer can create
-hackathon event and participants can register themselves for the event and send their ideas for the
-hackathon . after than event members rate the ideas . Then based on the rating top 5 ideas will get
-short listed and shown to the Event organizer.</p>
-<p><span class="dot"></span>&nbsp;&nbsp;<b>Fourth Project:-</b> Working in the Rakuten NFT team. Developed the B2C website of NFT where business unit(IP holders) can create and sell the packs that contains moments ( NFT tokens). once the packs available for sell user can purchase the pack avail the moments(NFT tokens) from it. after getting moments user can resale the tokens in the Rakuten NFT C2C ( customer to customer) website. By using the Multitenancy approach same layout of the website but different colours combinations and different images shared among various IP holders. website has millions of visitors. Also worked as a Bilingual associate Product manager to help in communication between japanese people and indian and to understand there requirements.
- of the business units. interacted with various japanese people. on boarded various IP holders for production. constantly working and adding features in C2C and B2C websites. Famous japanese firms such as Nikkan sports, Tsuburaya,Bandai namco, Tv Asahi, Daiki sounds ,J League and many more vendors are joining Rakuten NFT.<br/>
-		<p>  
-			<b>Rakuten NFT CTC Website : </b><br>
-	<a href="https://nft.rakuten.co.jp/">https://nft.rakuten.co.jp/</a>
-		</p>
-		<p>  
-			<b> Rakuten NFT BTC ULTRAMAN Website :  </b><br>
-			
-		</p>
-		    <p>  
-			<b> Ultraman :  </b><br>
-			<a href="https://heros-ultraman.nft.rakuten.co.jp/">https://heros-ultraman.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Nikkan sports:-   </b><br>
-			<a href="https://nikkansports.nft.rakuten.co.jp/">https://nikkansports.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Daiki Sounds:-  </b><br>
-			<a href="https://daikisound.nft.rakuten.co.jp/">https://daikisound.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Bandai Namco:-  </b><br>
-			<a href="https://bandainamcopictures.nft.rakuten.co.jp/">https://bandainamcopictures.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Jleague:-  </b><br>
-			<a href="https://jleague-playersanthem.nft.rakuten.co.jp/">https://jleague-playersanthem.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Kayama Yuzo NFT:-  </b><br>
-			<a href="https://kayamayuzo.nft.rakuten.co.jp/">https://kayamayuzo.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> Rakuten NFT Art Gallery:-  </b><br>
-			<a href="https://artgallery.nft.rakuten.co.jp/">https://artgallery.nft.rakuten.co.jp/</a>
-		</p>
-		      <p>  
-			<b> J-Rock :-  </b><br>
-			<a href="https://jrock.nft.rakuten.co.jp/">https://jrock.nft.rakuten.co.jp/</a>
-		</p>
-		      </p>
-		      <p>  
-			<b> Art Power Japan:-  </b><br>
-			<a href="https://apj.nft.rakuten.co.jp/">https://apj.nft.rakuten.co.jp/</a>
-		</p>
-		    </p>
-		      <p>  
-			<b> Boasorte management:-  </b><br>
-			<a href="https://boa-sorte.nft.rakuten.co.jp/">https://boa-sorte.nft.rakuten.co.jp/</a>
-		</p>
-		<p>  
-			<b> Kaneko Kuniyoshi:-  </b><br>
-			<a href="https://kuniyoshikaneko.nft.rakuten.co.jp/">https://kuniyoshikaneko.nft.rakuten.co.jp/</a>
-		</p>
-		    </p>
+                </p>
+                <p>
+                  <b> Ultraman : </b><br>
+                  <a href="https://heros-ultraman.nft.rakuten.co.jp/">https://heros-ultraman.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Nikkan sports:- </b><br>
+                  <a href="https://nikkansports.nft.rakuten.co.jp/">https://nikkansports.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Daiki Sounds:- </b><br>
+                  <a href="https://daikisound.nft.rakuten.co.jp/">https://daikisound.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Bandai Namco:- </b><br>
+                  <a
+                    href="https://bandainamcopictures.nft.rakuten.co.jp/">https://bandainamcopictures.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Jleague:- </b><br>
+                  <a
+                    href="https://jleague-playersanthem.nft.rakuten.co.jp/">https://jleague-playersanthem.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Kayama Yuzo NFT:- </b><br>
+                  <a href="https://kayamayuzo.nft.rakuten.co.jp/">https://kayamayuzo.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Rakuten NFT Art Gallery:- </b><br>
+                  <a href="https://artgallery.nft.rakuten.co.jp/">https://artgallery.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> J-Rock :- </b><br>
+                  <a href="https://jrock.nft.rakuten.co.jp/">https://jrock.nft.rakuten.co.jp/</a>
+                </p>
+                </p>
+                <p>
+                  <b> Art Power Japan:- </b><br>
+                  <a href="https://apj.nft.rakuten.co.jp/">https://apj.nft.rakuten.co.jp/</a>
+                </p>
+                </p>
+                <p>
+                  <b> Boasorte management:- </b><br>
+                  <a href="https://boa-sorte.nft.rakuten.co.jp/">https://boa-sorte.nft.rakuten.co.jp/</a>
+                </p>
+                <p>
+                  <b> Kaneko Kuniyoshi:- </b><br>
+                  <a href="https://kuniyoshikaneko.nft.rakuten.co.jp/">https://kuniyoshikaneko.nft.rakuten.co.jp/</a>
+                </p>
+                </p>
               </div>
             </li>
-			<li>
+            <li>
               <div class="title">02/2021 - 05/2021</div>
               <div class="details" style="width:600px">
-                <h5>DeveLearn Technologies <img src="https://d25hn4jiqx5f7l.cloudfront.net/companies/logos/original/develearn-technologies_1660821643.png?1660821643" alt="develearn-technologies Logo" width="30" height="30" style="padding-left: 0.2em;"></h5>
-                <small class="fg-theme">Android Engineer Intern</small>
-                <p><span class="dot"></span>&nbsp;&nbsp;Designed and developed an end-to-end Face Recognition solution to be launched at Academic &
-Industrial institutions.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Developed an Android native mobile Application that recognizes the face of the user and marks
-their attendance in the database. App provides various functionalities such as apply for leave, mark
-attendance, join classes, remove or add users, etc.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Recognized people by their faces in pictures and video feeds are seen everywhere starting from
-social media to phone cameras. A face recognition system was built for matching human faces
-with a digital image.</p>
-<p><span class="dot"></span>&nbsp;&nbsp;Build a Real-time face attendance system wherein webcam captured frames will be matched
-against the existing database images and if the match is found then it’ll store it in a CSV file called
-‘Attendance Register’ along with name and time of capture.
-</p>
+                <h5>DeveLearn Technologies <img src="https://media.licdn.com/dms/image/C4D0BAQF1e9jfGWoM4w/company-logo_200_200/0/1679736629408/develearn_technologies_logo?e=2147483647&v=beta&t=_0D9I1YhjKxGm1X7PJOQ5ZNFeui1VWXbZvURomGaWpA" alt="develearn-technologies Logo"
+                    width="30" height="30" style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">Androidエンジニア</small>
+                <p><span class="dot"></span>&nbsp;&nbsp;学術機関および産業機関向けに、エンドツーエンドの顔認識ソリューションを設計・開発しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;ユーザーの顔を認識し、データベースに出席を記録するAndroidネイティブモバイルアプリケーションを開発しました。このアプリは、休暇申請、出席記録、クラス参加、ユーザーの追加・削除など、さまざまな機能を提供します。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;写真やビデオフィードでの顔認識は、ソーシャルメディアからスマートフォンのカメラまで幅広く利用されています。デジタル画像と人間の顔を照合するための顔認識システムを構築しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;リアルタイム顔出席システムを構築しました。このシステムでは、ウェブカメラでキャプチャされたフレームが既存のデータベース画像と照合され、一致が見つかると「Attendance Register」というCSVファイルに名前とキャプチャ時間と共に記録されます。
+                </p>
               </div>
             </li>
-			<li>
+            <li>
               <div class="title">02/2021 - 04/2021</div>
               <div class="details" style="width:600px">
-                <h5>JPMORGAN & CHASE <img src="https://logos-world.net/wp-content/uploads/2021/02/JP-Morgan-Chase-Emblem.png" alt="JP-Morgan-Chase Logo" width="50" height="30" style="padding-left: 0.2em;"></h5>
-                <small class="fg-theme">Software Engineer Intern</small>
-                <p><span class="dot"></span>&nbsp;&nbsp;Interfaced with a stock price data feed and set up system for analysis of data.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Implemented perspective open source code in preparation of data visualization.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Used perspective to create the chart trader's dashboard.</p>
+                <h5>JPMORGAN & CHASE <img src="./assets/img/logo/JPMorgan.png" alt="JP-Morgan-Chase Logo" width="50"
+                    height="30" style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">ソフトウェアエンジニアインターン</small>
+                <p><span class="dot"></span>&nbsp;&nbsp;株価データフィードとインターフェースを作成し、データ分析のためのシステムを構築しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;データ可視化の準備のために、オープンソースのコードを実装しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;Perspectiveを使用して、トレーダーのダッシュボードを作成しました。</p>
               </div>
             </li>
             <li>
               <div class="title">05/2018 - 04/2018</div>
               <div class="details" style="width:600px">
-                <h5>TECHNO TWIT SOLUTION</h5>
-                <small class="fg-theme">IOT INTERN</small>
-                <p><span class="dot"></span>&nbsp;&nbsp;Developed small scale Government sponsored projects.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Interfaced with various sensors to build different projects.</p>
-				<p><span class="dot"></span>&nbsp;&nbsp;Developed System Interfacing for weather forecast.</p>
+                <h5>TECHNO TWIT SOLUTION <img src="https://i.pinimg.com/280x280_RS/e3/70/04/e37004a6da06a656dcc20503562b5142.jpg" alt="TECHNO TWIT SOLUTION Logo"
+                    width="50" height="30" style="padding-left: 0.2em;"></h5>
+                <small class="fg-theme">IOT インターン</small>
+                <p><span class="dot"></span>&nbsp;&nbsp;小規模な政府支援プロジェクトを開発しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;様々なセンサーとインターフェースを作成し、さまざまなプロジェクトを構築しました。</p>
+                <p><span class="dot"></span>&nbsp;&nbsp;天気予報用のシステムインターフェースを開発しました。</p>
               </div>
             </li>
-            
+
           </ul>
         </div>
       </div>
     </div>
   </div>
-    <div class="vg-page page-service" id="ach">
+  <div class="vg-page page-service" id="ach">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Achievements</div>
+        <div class="badge badge-subhead">業績</div>
       </div>
-      <h1 class="fw-normal text-center wow fadeInUp">My Achievements</h1>
+      <h1 class="fw-normal text-center wow fadeInUp">私の業績</h1>
       <div class="row mt-5">
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
@@ -444,30 +614,30 @@ against the existing database images and if the match is found then it’ll stor
             </div>
             <div class="caption">
               <h4 class="fg-theme">PIONEER 2021 </h4>
-              <p>Won runner up prize on National level Coding competition</p>
+              <p>全国レベルのコーディングコンペティションで準優勝しました。</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-             <img src="./assets/img/logo/idea.png" style="width:50px;height:50px" />
+              <img src="./assets/img/logo/idea.png" style="width:50px;height:50px" />
             </div>
             <div class="caption">
               <h4 class="fg-theme">TECHNOTSAV</h4>
-              <p>Winner at state level project competition.</p>
+              <p>州レベルのプロジェクトコンペティションで優勝しました。</p>
             </div>
           </div>
         </div>
-		
+
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-              <img src="./assets/img/logo/bulb.png"" style="width:50px;height:50px" />
+              <img src="./assets/img/logo/bulb.png"" style=" width:50px;height:50px" />
             </div>
             <div class="caption">
               <h4 class="fg-theme">Present Idea</h4>
-              <p> Winner in state level presentation competition at KIT college.</p>
+              <p> KIT大学の州レベルプレゼンテーションコンペティションで優勝しました。</p>
             </div>
           </div>
         </div>
@@ -478,35 +648,35 @@ against the existing database images and if the match is found then it’ll stor
             </div>
             <div class="caption">
               <h4 class="fg-theme">Kalaprast-2k19</h4>
-              <p>Winner in state level Drawing competition</p>
+              <p>州レベルの絵画コンペティションで優勝しました。</p>
             </div>
           </div>
         </div>
       </div>
-	   <div class="row mt-5">
+      <div class="row mt-5">
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
               <img src="./assets/img/logo/bug.png" style="width:50px;height:50px" />
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Bug-zilla-2k18  </h4>
-              <p>Winner at Bug zilla finding the bug in the code </p>
+              <h4 class="fg-theme">Bug-zilla-2k18 </h4>
+              <p>コード内のバグを見つけて、Bugzillaで優勝しました。</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-             <img src="./assets/img/logo/essay.png" style="width:50px;height:50px" />
+              <img src="./assets/img/logo/essay.png" style="width:50px;height:50px" />
             </div>
             <div class="caption">
               <h4 class="fg-theme">Essay Showdown</h4>
-              <p>Winner at state level Essay Writting competition.</p>
+              <p>州レベルのエッセイライティングコンペティションで優勝しました。</p>
             </div>
           </div>
         </div>
-		
+
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
@@ -514,7 +684,18 @@ against the existing database images and if the match is found then it’ll stor
             </div>
             <div class="caption">
               <h4 class="fg-theme">Robo Racer-2k16</h4>
-              <p>  Runner-up in Robo Racer-2k16 fire fighter robot state level competition.</p>
+              <p> Robo Racer-2k16ファイアファイターロボット州レベル競技で準優勝しました。</p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/logo/MIP.JPG" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Rakuten TECH MIP</h4>
+              <p楽天の2022年年度TECH MIP賞で「年間最優秀プロジェクト賞」を受賞しました。</p>
             </div>
           </div>
         </div>
@@ -525,19 +706,63 @@ against the existing database images and if the match is found then it’ll stor
             </div>
             <div class="caption">
               <h4 class="fg-theme">INVENTO-2k19</h4>
-              <p>Runner-up in Diploma and Degree Project Showcase at INVENTO-2k19.</p>
+              <p>INVENTO-2k19のディプロマおよび学位プロジェクトショーケースで準優勝しました。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="./assets/img/logo/Salesforce-logo.jpg" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Salesforce認定管理者</h4>
+              <p>試験に高得点で合格しました。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="./assets/img/logo/Salesforce-logo.jpg" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Salesforce JavaScript Developer 1認定</h4>
+              <p>試験に高得点で合格しました。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="./assets/img/logo/Salesforce-logo.jpg" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">SalesforceB2c Commerce cloud認定</h4>
+              <p>試験に高得点で合格しました。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="./assets/img/logo/Salesforce-logo.jpg" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Salesforce Makrketing cloud consultant認定</h4>
+              <p>試験に高得点で合格しました。</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
+
+
   <div class="vg-page page-service">
     <div class="container">
       <div class="text-center wow fadeInUp">
-        <div class="badge badge-subhead">Service</div>
+        <div class="badge badge-subhead">サービス</div>
       </div>
       <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
       <div class="row mt-5">
@@ -555,7 +780,7 @@ against the existing database images and if the match is found then it’ll stor
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-             <img src="./assets/img/logo/ios.png" style="width:50px;height:50px" />
+              <img src="./assets/img/logo/ios.png" style="width:50px;height:50px" />
             </div>
             <div class="caption">
               <h4 class="fg-theme">IOS</h4>
@@ -563,7 +788,17 @@ against the existing database images and if the match is found then it’ll stor
             </div>
           </div>
         </div>
-		
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="./assets/img/logo/salesforce-logo.png" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Salesforce</h4>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
@@ -571,6 +806,17 @@ against the existing database images and if the match is found then it’ll stor
             </div>
             <div class="caption">
               <h4 class="fg-theme">Database Design</h4>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/logo/devops.png" style="width:50px;height:50px" />
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">DEVOPS</h4>
               <p>There are many variations of passages of Lorem Ipsum available</p>
             </div>
           </div>
@@ -587,13 +833,13 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
       </div>
-	  
+
     </div>
   </div>
-  
-  
+
+
   </div>
-  
+
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
@@ -601,12 +847,14 @@ against the existing database images and if the match is found then it’ll stor
         <div class="badge badge-subhead">Projects</div>
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
-   
+
 
       <div class="gridder my-3">
         <div class="grid-item apps wow zoomIn">
-          <div class="img-place" style="height:300px" data-src="https://www.plasmacomp.com/wp-content/uploads/2016/06/Smart-Parking-Solution-1.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-            <img src="https://www.plasmacomp.com/wp-content/uploads/2016/06/Smart-Parking-Solution-1.jpg" alt="" >
+          <div class="img-place" style="height:300px"
+            data-src="https://www.plasmacomp.com/wp-content/uploads/2016/06/Smart-Parking-Solution-1.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
+            <img src="https://www.plasmacomp.com/wp-content/uploads/2016/06/Smart-Parking-Solution-1.jpg" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Parking Saviour</h5>
               <p>Car Park, Safety</p>
@@ -614,7 +862,8 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
         <div class="grid-item template wireframes wow zoomIn">
-          <div  style="height:300px" class="img-place" data-src="assets/img/work/todo.png" data-fancybox data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
+          <div style="height:300px" class="img-place" data-src="assets/img/work/todo.png" data-fancybox
+            data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
             <img src="assets/img/work/todo.png" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">To Do list</h5>
@@ -623,7 +872,8 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
         <div class="grid-item apps ios wow zoomIn">
-          <div style="height:300px" class="img-place" data-src="assets/img/work/chat.jfif" data-fancybox data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
+          <div style="height:300px" class="img-place" data-src="assets/img/work/chat.jfif" data-fancybox
+            data-caption="<h5 class='fg-theme'>Gaming Dashboard</h5> <p>Games, Streaming</p>">
             <img src="assets/img/work/chat.jfif" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Online Chat</h5>
@@ -632,7 +882,8 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
         <div class="grid-item graphic ui-ux wow zoomIn">
-          <div style="height:300px" class="img-place" data-src="assets/img/work/robo.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
+          <div style="height:300px" class="img-place" data-src="assets/img/work/robo.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Drugs Delivery App</h5> <p>Health, Drugs</p>">
             <img src="assets/img/work/robo.jpg" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Autonomous Fire Fighter</h5>
@@ -641,7 +892,8 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
         <div class="grid-item apps ios wow zoomIn">
-          <div style="height:300px" class="img-place" data-src="assets/img/work/imgsearch.png" data-fancybox data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
+          <div style="height:300px" class="img-place" data-src="assets/img/work/imgsearch.png" data-fancybox
+            data-caption="<h5 class='fg-theme'>Musics Discover</h5> <p>Musics, Dashboard</p>">
             <img src="assets/img/work/imgsearch.png" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Image Based Search</h5>
@@ -650,7 +902,8 @@ against the existing database images and if the match is found then it’ll stor
           </div>
         </div>
         <div class="grid-item graphic ui-ux wireframes wow zoomIn">
-          <div style="height:300px"  class="img-place" data-src="assets/img/work/game.jpg" data-fancybox data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
+          <div style="height:300px" class="img-place" data-src="assets/img/work/game.jpg" data-fancybox
+            data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
             <img src="assets/img/work/game.jpg" alt="">
             <div class="img-caption">
               <h5 class="fg-theme">Game Streaming</h5>
@@ -664,11 +917,11 @@ against the existing database images and if the match is found then it’ll stor
       </div>
     </div>
   </div> <!-- End Portfolio page -->
-  
+
   <!-- Testimonial -->
   <div class="vg-page page-testimonial">
     <div class="container">
-      <h1 class="text-center fw-normal wow fadeInUp">Testimonial</h1>
+      <h1 class="text-center fw-normal wow fadeInUp">推薦状</h1>
       <div class="row justify-content-center mt-5 wow fadeInUp">
         <div class="col-md-9">
           <div class="owl-carousel testi-carousel">
@@ -681,13 +934,14 @@ against the existing database images and if the match is found then it’ll stor
                 </div>
                 <div class="col-md-6">
                   <div class="caption">
-                    <div class="testi-content">Abhishek doesn't need my recommendation.  his work speaks so loud that his story . he is in the business of making entrepreneurs like me look smarter and aim higher. he has provided me a supporting arm so far.</div>
+                    <div class="testi-content">アビシェックには私の推薦状は必要ありません。彼の仕事は非常に素晴らしく、彼のストーリーがそれを物語っています。彼は私のような起業家がより賢く、より高い目標を持つ手助けをしています。これまでの間、彼は私をサポートしてくれました。</div>
                     <div class="testi-info">
                       <div class="thumb-profile">
                         <img src="assets/img/testimonials/ananya.jpg" alt="">
                       </div>
                       <div class="tagline">
-                        <span class="text-muted">Tech Analyst at Deutsche bank</span>
+                        <span class="text-muted">Tech Analyst at Deutsche bank<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/2048px-Deutsche_Bank_logo_without_wordmark.svg.png" alt="Deutsche_Bank Logo" width="80" height="40"
+                    style="padding-left: 0.2em;"></span>
                         <h5 class="mb-0">Ananya Shrivastava</h5>
                       </div>
                     </div>
@@ -704,14 +958,63 @@ against the existing database images and if the match is found then it’ll stor
                 </div>
                 <div class="col-md-6">
                   <div class="caption">
-                    <div class="testi-content"> Abhishek has been that one person who is always there to help and guide you in every possible way.He has the vision to share and do as much as he can for the community. He is an immensely talented and hard-working person. He  is one of highly talented individuals I have ever met with.</div>
+                    <div class="testi-content"> アビシェックは、常に助けと指導を惜しまない一人の人物です。彼はコミュニティのためにできる限りのことを共有し、実行するというビジョンを持っています。彼は非常に才能があり、一生懸命に働く人物です。これまで出会った中で最も優れた才能を持った人の一人です。</div>
                     <div class="testi-info">
                       <div class="thumb-profile">
                         <img src="assets/img/testimonials/sailee.jpg" alt="">
                       </div>
                       <div class="tagline">
-                        <h5 class="mb-0">Sailee Akim</h5>
+                        <h5 class="mb-0">Sailee Akim<img src="https://toppng.com/uploads/preview/linkedin-logo-png-file-116602552329ugq7wgfb8.png" alt="Deutsche_Bank Logo" width="80" height="40"
+                    style="padding-left: 0.2em;"></h5>
                         <span class="text-muted">Software Engineer at Linkedin</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="img-place">
+                    <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/testimonials/parth.PNG" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caption">
+                    <div class="testi-content">私はアビシェックとさまざまなプロジェクトで一緒に働く特権を持ちました。アビシェックは非常に情熱的で、勤勉な開発者です。彼には優れたリーダーシップの資質があり、常に積極的で、プロジェクトの責任を進んで引き受けます。彼の開発スキルは卓越しており、彼が参加するチームにとって必ずや大きな資産となるでしょう。</div>
+                    <div class="testi-info">
+                      <div class="thumb-profile">
+                        <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/testimonials/parth.PNG" alt="">
+                      </div>
+                      <div class="tagline">
+                        <h5 class="mb-0">Parth Shrivastav<img src="https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-p@2x.png" alt="Deutsche_Bank Logo" width="80" height="40"
+                    style="padding-left: 0.2em;"> </h5>
+                        <span class="text-muted">System Software Engineer NVIDIA</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="img-place">
+                    <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/testimonials/mayuri.PNG" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caption">
+                    <div class="testi-content">私は楽天でアビシェックと一緒に働きました。アビシェックは、どんなプロジェクトや課題に対しても最高の品質を提供することに常に興味を持っています。彼の専門知識をソフトウェアエンジニアを探している人に強くお勧めします。彼は私が出会った中で最も深い人物であり、問題を解決する能力は卓越しており、いつも温かい笑顔で対応します。アビシェックはどのチームにおいても評価されるメンバーとなるでしょう。彼は最も献身的なプロフェッショナルの一人であり、開発者としての専門知識は非常に高く、さまざまなプロジェクトでチームがより効率的な解決策を見つける手助けをしました。アビシェックは非常に勤勉で、極めて才能のある個人です。</div>
+                    <div class="testi-info">
+                      <div class="thumb-profile">
+                        <img src="https://raw.githubusercontent.com/AbhishekPol/Portfolio/main/assets/img/testimonials/mayuri.PNG" alt="">
+                      </div>
+                      <div class="tagline">
+                        <h5 class="mb-0">Mayurigauri Sangle<img src="https://companieslogo.com/img/orig/4755.T-0488a1c7.png?t=1648149717" alt="Deutsche_Bank Logo" width="80" height="40"
+                    style="padding-left: 0.2em;"> </h5>
+                        <span class="text-muted">Product Manager and Trainer at Rakuten Inc.</span>
                       </div>
                     </div>
                   </div>
@@ -723,7 +1026,7 @@ against the existing database images and if the match is found then it’ll stor
       </div>
     </div>
   </div> <!-- End testimonial -->
-  
+
   <!-- Client -->
   <div class="vg-page page-client">
     <div class="container">
@@ -773,9 +1076,9 @@ against the existing database images and if the match is found then it’ll stor
       </div>
     </div>
   </div> <!-- End client -->
-  
 
-  
+
+
   <!-- Contact -->
   <div class="vg-page page-contact" id="contact">
     <div class="container-fluid">
@@ -811,7 +1114,7 @@ against the existing database images and if the match is found then it’ll stor
       </div>
     </div>
   </div> <!-- End Contact -->
-  
+
   <!-- Footer -->
   <div class="vg-footer">
     <h1 class="text-center">Portfolio</h1>
@@ -819,14 +1122,10 @@ against the existing database images and if the match is found then it’ll stor
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="footer-info">
-            <p>Where to find me</p>
+            <p>私の所在地:
+            </p>
             <hr class="divider">
-            <p class="fs-large fg-white">Flat no.102
-Ridhi sidhi Apartment
-2884- B ward
-Near Jawahar Nagar High school
-Jawahar Nagar
-Kolhapur-416012</p>
+            <p class="fs-large fg-white">〒134-0083 東京都江戸川区中葛西6-10-7 東都シェアハウス葛西 5階 607号室 エドガワビル</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 py-3">
@@ -847,41 +1146,42 @@ Kolhapur-416012</p>
             <hr class="divider">
             <ul class="list-unstyled">
               <li>polabhishek2001@gmail.com</li>
-              <li>+91-7028148719</li>
-              <li>+91-9359586866</li>
+              <li>+81-08098241447</li>
             </ul>
           </div>
         </div>
       </div>
-     
-  
-  
-  
-  <script src="assets/js/jquery-3.5.1.min.js"></script>
-    
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-    
-  <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-    
-  <script src="assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-    
-  <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
-    
-  <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
-    
-  <script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
 
-  <script src="assets/vendor/wow/wow.min.js"></script>
 
-  <script src="assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
 
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
 
-  <script src="assets/js/google-maps.js"></script>
-    
-  <script src="assets/js/topbar-virtual.js"></script>
+      <script src="assets/js/jquery-3.5.1.min.js"></script>
 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
-  
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+      <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+
+      <script src="assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+      <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+      <script src="assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+
+      <script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+      <script src="assets/vendor/wow/wow.min.js"></script>
+
+      <script src="assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+      <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+      <script src="assets/js/google-maps.js"></script>
+
+      <script src="assets/js/topbar-virtual.js"></script>
+
+      <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+
 </body>
+
 </html>
