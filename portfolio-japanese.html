@@ -39,44 +39,7 @@
     margin-bottom: 12px;
 }
   
-.popup {
-  display: none; /* Hidden by default */
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-  justify-content: center;
-  align-items: center;
-  z-index: 9999; /* Ensure the popup is on top */
-}
 
-.popup-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  z-index: 10000; /* Ensure the content is on top */
-}
-
-.popup button {
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#btn-english {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
-#btn-japanese {
-  background-color: #008CBA; /* Blue */
-  color: white;
-}
 </style>
 <html lang="en">
 
@@ -112,36 +75,7 @@
 </head>
 
 <body class="theme-red">
- <div id="language-popup" class="popup">
-    <div class="popup-content">
-        <p>言語を選択してください:<br/>
-        Select your language::</p>
-        <button id="btn-english">英語&nbsp;/&nbsp;English</button>
-        <button id="btn-japanese">日本語&nbsp;/&nbsp;Japanese</button>
-    </div>
-</div>
-
-<script>
-    window.onload = function() {
-        // Show the popup when the page loads
-        document.getElementById('language-popup').style.display = 'flex';
-
-        // Add event listeners to buttons
-        document.getElementById('btn-english').addEventListener('click', function() {
-            // Store user's choice in localStorage or handle it as needed
-            localStorage.setItem('preferredLanguage', 'en');
-            // Redirect or change content based on the selected language
-            window.location.href = 'https://abhishekpol.github.io/Portfolio/index-2.html'; // Replace with your English portfolio page
-        });
-
-        document.getElementById('btn-japanese').addEventListener('click', function() {
-            // Store user's choice in localStorage or handle it as needed
-            localStorage.setItem('preferredLanguage', 'jp');
-            // Redirect or change content based on the selected language
-            window.location.href = 'https://abhishekpol.github.io/Portfolio/'; // Replace with your Japanese portfolio page
-        });
-    };
-</script>
+ 
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
